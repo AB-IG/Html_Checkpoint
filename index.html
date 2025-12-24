@@ -7,6 +7,10 @@
       content="width=device-width, initial-scale=1.0"
     />
     <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <!--Navbar-->
@@ -16,7 +20,6 @@
       <a href="#work">Work</a>
       <a href="#Contact">Contact</a>
 
-      <hr />
     </nav>
     <main>
       <!--About Section-->
@@ -30,10 +33,13 @@
                <br>
               <img src="./src/images/C1244843-A1AB-40C9-B328-9DAF38DCB504_1_105_c.jpeg" width="800px" height="400px" alt="">
               <br>
-               <strong>Name:</strong> Abraham Markus
+              <pre class="details">
+                <strong>Name:</strong> Abraham Markus
                 <strong>Address:</strong> 230 Herbert Macaulay Way, Alagomeji-Yaba 101245, Lagos, Nigeria
                 <strong>Email:</strong> gomycode@yahoo.com
                  <strong>Phone:</strong> +122-435-3533
+              </pre>
+               
                  <p>For more info <a href="about.html">click here</a></p>
             </pre>
             <!-- <img
@@ -105,10 +111,9 @@ Contributed ideas during planning and review sessions</pre></dd>
         </center>
       </section>
       <br />
-      <br />
-      <hr />
+      
     <!--Contact Section-->
-      <section id="Contact">
+      <section id="Contact" class="contact">
         <center>
           <h1>Contact Section</h1>
           We will be so happy to hear from you...!!!
@@ -145,14 +150,13 @@ Contributed ideas during planning and review sessions</pre></dd>
             ></textarea>
             <br />
             <button type="submit">Send</button>
-            <br />
+           
           </form>
         </center>
       </section>
-      <hr />
     </main>
     <!--Footer-->
-    <footer>
+    <footer class="footer">
       <h1>Social links</h1>
       <ul>
         <li><a href="https://github.com/dashboard" target="_blank">Github</a></li>
