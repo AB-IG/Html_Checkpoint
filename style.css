@@ -37,7 +37,7 @@ nav a:hover {
 /* Work Section */
 .work {
     display: flex;
-    width: 50%;
+    width: 75%;
     justify-content: center;
     align-items: center;
     margin: auto;
@@ -53,7 +53,7 @@ nav a:hover {
 .resume {
     color: white;
     display: flex;
-    width: 50%;
+    width: 75%;
     justify-content: center;
     align-items: center;
     margin: auto;
@@ -72,28 +72,37 @@ dt {
 
 /* Contacts */
 .contact {
-    background-color: rgb(235, 235, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: rgb(147, 78, 178);
+    width: 75%;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     padding: 20px;
     color: black;
 }
 
+/* ontact input section */
 .Contact_section {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
     background-color: white;
-    box-shadow: 5px 10px 50px grey;
-    width: 500px;
+    width: 50%;
     border-radius: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+
+
 }
 
 /* Contact inputs & Textarea */
 .contact input {
     margin: 5px;
     padding: 15px;
+    width: 100%;
     border: none;
     color: black;
     background-color: rgb(239, 218, 248);
@@ -106,10 +115,6 @@ dt {
     padding: 5px;
 }
 
-.contact h1 {
-    color: rgb(147, 71, 176);
-}
-
 /* Contact Button */
 button {
     width: 100%;
@@ -120,11 +125,11 @@ button {
     border-radius: 10px;
     color: white;
     font-size: 1.2rem;
-    background-color: rgb(147, 71, 176);
+    background-color: black;
 }
 
 button:hover {
-    background-color: rgb(178, 88, 178);
+    background-color: rgb(60, 56, 56);
 }
 
 /* Footer */
@@ -133,4 +138,5 @@ button:hover {
     color: white;
     text-align: center;
     padding: 30px;
+
 }
