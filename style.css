@@ -1,13 +1,19 @@
+/* Body Styling */
 body {
     font-family: "Roboto", sans-serif;
     margin-top: 0px;
 }
 
+/* Navbar Styling */
 nav {
     background-color: lightgrey;
     height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+/* Navbar items */
 nav a {
     display: inline;
     margin: 10px;
@@ -16,14 +22,27 @@ nav a {
     text-align: center;
 }
 
+nav a:hover {
+    color: rgb(124, 117, 117);
+}
+
+/* Personal details */
 .details {
     color: rgb(107, 104, 104);
 }
 
+/* Contacts */
 .contact {
     background-color: rgb(235, 235, 235);
     padding: 20px;
     color: rgb(105, 103, 103);
+}
+
+/* Contact inputs & Textarea */
+.contact input {
+    padding: 15px;
+    border-radius: 10px;
+
 }
 
 .contact textarea {
@@ -31,12 +50,7 @@ nav a {
     padding: 5px;
 }
 
-.contact input {
-    padding: 15px;
-    border-radius: 10px;
-    border: none;
-}
-
+/* Contact Button */
 button {
     width: 100px;
     text-align: center;
