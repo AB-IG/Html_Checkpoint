@@ -112,13 +112,14 @@ dt {
 
 /* Contact Button */
 button {
-    width: 100px;
+    width: 100%;
     text-align: center;
     padding: 20px;
     border: none;
     margin: 10px;
     border-radius: 10px;
     color: white;
+    font-size: 1.2rem;
     background-color: rgb(147, 71, 176);
 }
 
