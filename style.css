@@ -45,7 +45,7 @@ nav a:hover {
     margin-bottom: 3rem;
     padding: 10px;
     border-radius: 10px;
-    background-color: rgb(178, 88, 178);
+    background-color: rgb(147, 71, 176);
     color: white;
 }
 
@@ -123,7 +123,7 @@ button {
 }
 
 button:hover {
-    background-color:rgb(178, 88, 178);
+    background-color: rgb(178, 88, 178);
 }
 
 /* Footer */
