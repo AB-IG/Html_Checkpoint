@@ -64,6 +64,12 @@ nav a:hover {
     background-color: black;
 }
 
+.resume h1,
+h3,
+dt {
+    color: rgb(178, 88, 178);
+}
+
 /* Contacts */
 .contact {
     background-color: rgb(235, 235, 235);
