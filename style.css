@@ -94,6 +94,7 @@ dt {
     background-color: white;
     width: 50%;
     border-radius: 10px;
+    box-shadow: 5px 10px 20px black;
 
 
 }
